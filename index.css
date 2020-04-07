@@ -24,41 +24,41 @@ body {
   padding: 5em;
   width: 60vw;
   border-radius: 40px;
-  #text {
-    text-align: left;
-    font-size: 2em;
-  }
-  .author {
-    text-align: right;
-    font-size: 1.25em;
-    font-style: italic;
-    padding-top: 15px;
-  }
-  #buttons {
-    margin: auto;
-    display: block;
-    padding-top: 10px;
-    .button {
-      color: #000;
-      background: #fff;
-      cursor: pointer;
-      font-size: 1.5em;
-      padding: 6px 15px;
-      border-radius: 10px;
-      &:hover {
-        transition: 0.5s ease-in-out;
-        transform: scale(1.1);
-      }
-      &#new-quote {
-        text-align: center;
-        float: left;
-      }
-      &#tweet-quote {
-        text-align: center;
-        float: right;
-      }
-    }
-  }
+}
+#text {
+  text-align: left;
+  font-size: 2em;
+}
+.author {
+  text-align: right;
+  font-size: 1.25em;
+  font-style: italic;
+  padding-top: 15px;
+}
+#buttons {
+  margin: auto;
+  display: block;
+  padding-top: 10px;
+}
+.button {
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+.button:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+.button #new-quote {
+  text-align: center;
+  float: left;
+}
+.button #tweet-quote {
+  text-align: center;
+  float: right;
 }
 #footer {
   font-size: 1em;
